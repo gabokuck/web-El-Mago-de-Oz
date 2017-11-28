@@ -1,0 +1,84 @@
+#encabezado{
+	width: 1000px;
+	height: 100px;
+	/*background-color: green;*/
+} 
+
+
+#img1{
+	width: 150px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#img2{
+	width: 100px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.titulo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#menu{
+	width: 150px;
+	height: 400px;
+	background-color: white;
+	float: left;
+}
+
+#menu ul{
+	width: 150px;
+	background: white;
+	/*background-color: white;*/
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+}
+
+#centrar{
+	padding-top: 30px;
+}
+
+#menu li{
+	list-style: none;
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#menu li:hover{
+	background: grey;
+	width: 155px;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#contenido{
+	width: 850px;
+	height: 400px;
+	position: relative;
+	left: 150px;
+}
+
+#pie_pagina{
+	width: 1000px;
+	height: 100px;
+	background-color: orange;
+	float: left;
+}
